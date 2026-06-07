@@ -1,0 +1,19 @@
+dataset/
+.DS_Store
+logs/
+results/
+plots/
+wandb/
+wandb_logs/
+baselines/
+writings/
+checkpoints/
+scripts/temp/
+
+# Python generated caches and binaries
+__pycache__/
+*.py[cod]
+*.pkl
+*.pt
+*.ckpt
+*.log
