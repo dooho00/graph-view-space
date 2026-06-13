@@ -1,0 +1,38 @@
+# Recreate the working CUDA environment with:
+#   conda env create -f environment.yml
+#   conda activate graph_view_space
+name: graph_view_space
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - --find-links https://data.dgl.ai/wheels/torch-2.1/cu121/repo.html
+      - --find-links https://data.pyg.org/whl/torch-2.1.2+cu121.html
+      - torch==2.1.2+cu121
+      - torchvision==0.16.2+cu121
+      - torchaudio==2.1.2+cu121
+      - torchdata==0.7.1
+      - dgl==2.4.0+cu121
+      - pyg-lib==0.4.0+pt21cu121
+      - torch-scatter==2.1.2+pt21cu121
+      - torch-sparse==0.6.18+pt21cu121
+      - torch-cluster==1.6.3+pt21cu121
+      - torch-spline-conv==1.2.2+pt21cu121
+      - torch-geometric==2.8.0
+      - numpy==1.26.4
+      - scipy
+      - scikit-learn
+      - pandas
+      - tqdm
+      - matplotlib
+      - wandb
+      - ogb
+      - nvidia-cuda-runtime-cu12
+      - nvidia-cusparse-cu12
+      - nvidia-cusolver-cu12
+      - nvidia-curand-cu12
+      - nvidia-cufft-cu12
+      - nvidia-nvjitlink-cu12
