@@ -9,6 +9,7 @@ baselines/
 writings/
 checkpoints/
 scripts/temp/
+splits/
 
 # Python generated caches and binaries
 __pycache__/
