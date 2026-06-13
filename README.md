@@ -44,6 +44,17 @@ In the paper's experimental setup, RGVT is pretrained on OGBN-Arxiv and evaluate
 
 ## Quick Start
 
+### Environment setup
+
+Create the Conda environment from the provided portable environment file:
+
+```bash
+conda env create -f environment.yml
+conda activate graph_view_space
+```
+
+The environment installs the CUDA 12.1 PyTorch, DGL, and PyG wheels used by this repository, along with the data and experiment dependencies such as OGB, scikit-learn, pandas, matplotlib, and Weights & Biases.
+
 ### Full pipeline with an MLP predictor
 
 ```bash
