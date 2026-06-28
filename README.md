@@ -98,14 +98,12 @@ The provided scripts run the same MLP setting:
 If you use this code, please cite:
 
 ```bibtex
-@misc{lee2026viewspace,
+@inproceedings{lee2026view,
       title={View Space: Learning Representation across Arbitrary Graphs},
       author={Dooho Lee and Myeong Kong and Minho Jeong and Jaemin Yoo},
+      booktitle={Forty-third International Conference on Machine Learning},
       year={2026},
-      eprint={2512.11561},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2512.11561},
+      url={https://openreview.net/forum?id=9klc62KROH}
 }
 ```
 
